@@ -17,6 +17,6 @@ plot(data1[,2],data1[,5],type = "l",col = "black",xlab = "datetime",ylab = "Volt
 plot(data1[,2],data1[,7],type = 'l',col = "black",xlab = "",ylab = "Energy sub metering")
 lines(data1[,2],data1[,8],type = 'l', col = "red")
 lines(data1[,2],data1[,9],type = 'l', col = "blue")
-legend("topright",legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), col = c("black","red","blue"),lty = 1)
+legend("topright",legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), cex = 0.5,col = c("black","red","blue"),lty = 1)
 
 plot(data1[,2],data1[,4],type = "l",col = "black",xlab = "datetime",ylab = "Global_reactive_Power")
