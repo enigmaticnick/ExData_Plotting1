@@ -1,4 +1,3 @@
-
 library(data.table)
 data1 = fread("household_power_consumption.txt",skip = "1/2/2007",nrows = 2880,sep = ";",colClasses = "character")
 data1 = as.data.frame(data1)
